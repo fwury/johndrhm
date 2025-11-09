@@ -40,14 +40,6 @@
             opacity: 0.7;
         }
 
-        .nav-social-link img {
-            transition: opacity 0.3s ease;
-        }
-
-        .nav-social-link:hover img {
-            opacity: 0.7;
-        }
-
         .content-wrapper {
             padding-left: 5rem;
             padding-right: 5rem;
@@ -58,6 +50,35 @@
                 padding-left: 1rem;
                 padding-right: 1rem;
             }
+        }
+
+        /* FIX: Styling for the new Contact dropdown */
+        .dropdown-toggle, .dropdown-toggle:hover {
+            color: #fff;
+            font-family: 'DM Sans', sans-serif;
+            text-decoration: none;
+            background: none;
+            border: none;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+        
+        .dropdown-toggle::after {
+            vertical-align: 0.15em;
+        }
+
+        .dropdown-menu {
+            background-color: #111;
+            border: 1px solid #333;
+        }
+
+        .dropdown-item {
+            color: #ccc;
+        }
+
+        .dropdown-item:hover, .dropdown-item:focus {
+            color: #fff;
+            background-color: #222;
         }
 
         .portfolio-grid {
@@ -202,7 +223,6 @@
 
         .description-container {
             width: 25%;
-            /* FIX: Add explicit max-height to ensure scrolling works with flex-start alignment */
             max-height: 80vh;
             padding: 0 2rem 1rem 2rem;
             overflow-y: auto;
@@ -265,12 +285,20 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav class="navbar navbar-dark bg-black">
         <div class="container-fluid content-wrapper">
             <a class="navbar-brand" href="#">JOHN DERHAM</a>
-            <a class="nav-social-link" href="https://www.instagram.com/johndrhm" target="_blank">
-                <img class="social-media-icon" src="img/instagram.png" alt="Instagram">
-            </a>
+            
+            <!-- FIX: Replaced Instagram icon with a Contact dropdown -->
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="contactDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    CONTACT    
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="contactDropdown">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/johndrhm" target="_blank">Instagram</a></li>
+                    <li><a class="dropdown-item" href="mailto:johnderhamtoronto@gmail.com">johnderhamtoronto@gmail.com</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
