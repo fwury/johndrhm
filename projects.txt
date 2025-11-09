@@ -197,7 +197,7 @@ vimeo_links:
 https://player.vimeo.com/video/339182963
 description:
 Director – @johndrhm
-Shot by @johndrhm @dco.fr @damian.guenette
-Editor & VFX – @dco.fr
+Shot by @johndrhm @declanfzg @damian.guenette
+Editor & VFX – @declanfzg
 
 ---
