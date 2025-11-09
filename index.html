@@ -139,11 +139,9 @@
             display: flex;
             background-color: transparent;
             border: none;
-            /* FIX: Makes the container and its empty space invisible to clicks */
             pointer-events: none;
         }
 
-        /* FIX: Re-enables clicks for the actual content inside the container */
         .carousel-container,
         .description-container {
             pointer-events: auto;
@@ -154,7 +152,8 @@
             width: 100%;
             height: 100%;
             padding: 0;
-            align-items: center;
+            /* FIX: Changed to flex-start to top-align video and description */
+            align-items: flex-start;
         }
 
         .close-button {
@@ -240,6 +239,9 @@
         @media (max-width: 992px) {
             .modal-body {
                 flex-direction: column;
+                /* Re-center for the column layout on mobile */
+                align-items: center;
+                justify-content: center;
             }
 
             .carousel-container {
@@ -266,7 +268,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid content-wrapper">
-            <a class="navbar-brand" href="#">JOHN DERHAM</a>
+            <a class="navbar-brand" href="#">JOHN DERham</a>
             <a class="nav-social-link" href="https://www.instagram.com/johndrhm" target="_blank">
                 <img class="social-media-icon" src="img/instagram.png" alt="Instagram">
             </a>
@@ -332,6 +334,7 @@
             const carousel = bootstrap.Carousel.getOrCreateInstance(projectCarouselElement);
 
             let projectsData = [];
+            let currentProjectIndex = -1;
 
             function parseProjectsTxt(text) {
                 const projects = [];
@@ -417,6 +420,8 @@
             }
 
             function openModal(index) {
+                currentProjectIndex = index;
+
                 const project = projectsData[index];
                 projectTitle.textContent = project.name;
                 projectDescription.textContent = project.description;
@@ -462,18 +467,22 @@
             }
 
             document.addEventListener('keydown', function (event) {
-                if (event.key === 'Escape' && modal.classList.contains('is-open')) {
-                    closeModal();
-                }
-            });
+                if (!modal.classList.contains('is-open')) return;
 
-            document.addEventListener('keydown', function (event) {
-                if (modal.classList.contains('is-open')) {
-                    if (event.key === 'ArrowLeft') {
-                        carousel.prev();
-                    } else if (event.key === 'ArrowRight') {
-                        carousel.next();
-                    }
+                switch (event.key) {
+                    case 'Escape':
+                        closeModal();
+                        break;
+                    case 'ArrowRight':
+                        if (currentProjectIndex < projectsData.length - 1) {
+                            openModal(currentProjectIndex + 1);
+                        }
+                        break;
+                    case 'ArrowLeft':
+                        if (currentProjectIndex > 0) {
+                            openModal(currentProjectIndex - 1);
+                        }
+                        break;
                 }
             });
         });
