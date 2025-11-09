@@ -3,7 +3,7 @@ thumbnail: thumbnails/buggin.png
 vimeo_links:
 https://player.vimeo.com/video/339182963
 description:
-Models – @feather_is_alive @thxrston
+Talents – @feather_is_alive @thxrston
 
 Director – @j6shy
 DP / Producer – @allieleichter
@@ -37,7 +37,7 @@ https://player.vimeo.com/video/339182963
 description:
 Shot & edited in 20 hours
 
-Models – @syrianpsycho @co1inmyers
+Talents – @syrianpsycho @co1inmyers
 
 Director – @j6shy
 Producer / DP – @allieleichter
@@ -68,7 +68,7 @@ thumbnail: thumbnails/booster-juice.png
 vimeo_links:
 https://www.youtube.com/embed/RWIqGBzpmKU
 description:
-VFX/animation – @johndrhm @declanfzg
+VFX / Animation – @johndrhm @declanfzg
 
 Producer – @emilioreyes06
 Director – @mmmaaaaaaax
@@ -93,7 +93,7 @@ Swimmer – @mercedespumaa
 Soccer Goalie – @cameron_gut
 
 Color – @jgfilmincolour
-Edit – @mmmaaaaaaax @tyferguson
+Editor – @mmmaaaaaaax @tyferguson
 Music – @artlist.io
 Production Company – @lucidfilmco
 
