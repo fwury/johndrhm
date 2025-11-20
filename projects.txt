@@ -1,72 +1,28 @@
-name: pholoh - BUGGIN
-thumbnail: thumbnails/buggin.png
+name: ziPbby - Bombay
+thumbnail: thumbnails/bombay.png
 vimeo_links:
-https://player.vimeo.com/video/339182963
+https://player.vimeo.com/video/1125948578
+https://player.vimeo.com/video/1125948558
+https://player.vimeo.com/video/1125948594
+https://player.vimeo.com/video/1125948620
 description:
-Talents – @feather_is_alive @thxrston
 
-Director – @j6shy
-DP / Producer – @allieleichter
-1st AC – @jpegcole
-Gaffer – @tron_boy_fresh
-Key Grip – @grahamhammond
-
-Edit & VFX – @declanfzg
-3D Lead & Comp – @johndrhm
-3D – @sp1ll
-Color – @declanfzg
-
----
-
-name: twinuzis - Waiting For Love!
-thumbnail: thumbnails/waiting-for-love.png
-vimeo_links:
-https://www.youtube.com/embed/hFkoJwfDEK0
-description:
-VFX – @johndrhm @declanfzg
-Director – @jacksonmagnabosco @keatondjones
-Title – @declanfzg
-3D – @sp1ll
-
----
-
-name: ditch x gunnr popup campaign
-thumbnail: thumbnails/ditch.png
-vimeo_links:
-https://player.vimeo.com/video/339182963
-description:
-Shot & edited in 20 hours
-
-Talents – @syrianpsycho @co1inmyers
-
-Director – @j6shy
-Producer / DP – @allieleichter
-1st AD – @johndrhm
-
-Gaffer – @cma_era
-Key Grip – @calub_harris
-1st AC – @jpegcole
-2nd AC – @bykaiii
-Audio Recordist – @hollyfontanetta
-
-Editor – @declanfzg
-VFX Lead – @declanfzg
-Colorist – @johndrhm
-
-Storyboard Illustrator – @ineurysm
-Styling – @conceal @trentkiim
-Casting Coordinators – @a_lexjs @victorrphm @trentkiim
-Set Design – @j6shy
-
-BTS Videographer – @trickyjacob
-BTS Photographers – @ttylerphamm @poultryheadd
+Director – @chriswbradford 
+1st AD – @yardstickbwoy
+2nd AD – @gaziwrld
+Bcam – @johndrhm and @declanfzg 
+Editor – @oasisnate 
+Colorist – @edgarreynag 
+VFX – @johndrhm 
+Title – @aloran.psd 
+Stylist – @ryanleutz
 
 ---
 
 name: Booster Juice
 thumbnail: thumbnails/booster-juice.png
 vimeo_links:
-https://www.youtube.com/embed/RWIqGBzpmKU
+https://player.vimeo.com/video/1125941623
 description:
 VFX / Animation – @johndrhm @declanfzg
 
@@ -96,6 +52,18 @@ Color – @jgfilmincolour
 Editor – @mmmaaaaaaax @tyferguson
 Music – @artlist.io
 Production Company – @lucidfilmco
+
+---
+
+name: twinuzis - Waiting For Love!
+thumbnail: thumbnails/waiting-for-love.png
+vimeo_links:
+https://www.youtube.com/embed/hFkoJwfDEK0
+description:
+VFX – @johndrhm @declanfzg
+Director – @jacksonmagnabosco @keatondjones
+Title – @declanfzg
+3D – @sp1ll
 
 ---
 
@@ -188,16 +156,5 @@ description:
 VFX – @johndrhm @declanfzg
 Director – @forgetter
 Editor – @unifiedatlantic
-
----
-
-name: tana official recap
-thumbnail: thumbnails/tana.png
-vimeo_links:
-https://player.vimeo.com/video/339182963
-description:
-Director – @johndrhm
-Shot by @johndrhm @declanfzg @damian.guenette
-Editor & VFX – @declanfzg
 
 ---
