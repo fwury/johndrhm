@@ -1,5 +1,5 @@
 name: Booster Juice - Summertime Watermelon
-hover_text: Summertime Watermelon • 202K views
+hover_text: Summertime Watermelon
 thumbnail: thumbnails/booster-juice.png
 vimeo_links:
 https://player.vimeo.com/video/1125941623
@@ -43,7 +43,7 @@ Production Company – @lucidfilmco
 ---
 
 name: Booster Juice - Holiday Gift Cards
-hover_text: Holiday Gift Cards • 2.7K views
+hover_text: Holiday Gift Cards
 thumbnail: thumbnails/booster-juice-2.jpeg
 vimeo_links:
 https://player.vimeo.com/video/1147070493
