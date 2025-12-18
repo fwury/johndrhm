@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -143,6 +142,14 @@
             }
         }
 
+        /* --- Booster Section Styling --- */
+        #booster-section {
+            background-color: #FFDE21;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            width: 100%;
+        }
+
         /* --- Custom Contact Styling --- */
         .contact-button {
             color: #fff;
@@ -230,7 +237,6 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 1.5rem;
-            margin-top: 5rem;
         }
 
         @media (max-width: 768px) {
@@ -250,6 +256,13 @@
             background-position: center;
         }
 
+        /* For Booster Section */
+        .booster-image {
+            aspect-ratio: 1 / 1;
+            background-size: cover;
+            background-position: center;
+        }
+
         .portfolio-item .overlay {
             position: absolute;
             top: 0;
@@ -260,7 +273,8 @@
             width: 100%;
             opacity: 0;
             transition: .3s ease;
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Increased opacity for visibility on yellow bg */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -559,9 +573,18 @@
         </nav>
     </header>
 
-    <main class="content-wrapper mb-5">
+    <!-- Booster Juice Section -->
+    <section id="booster-section">
+        <div class="content-wrapper">
+            <div id="booster-grid" class="portfolio-grid">
+                <!-- Booster items injected here -->
+            </div>
+        </div>
+    </section>
+
+    <main class="content-wrapper mb-5 mt-5" style="padding-top: 3rem;">
         <div id="portfolio-grid" class="portfolio-grid">
-            <!-- Portfolio items will be injected here -->
+            <!-- Main Portfolio items will be injected here -->
         </div>
     </main>
 
@@ -639,6 +662,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             // Project Modal Elements
             const portfolioGrid = document.getElementById('portfolio-grid');
+            const boosterGrid = document.getElementById('booster-grid');
             const projectModal = document.getElementById('projectModal');
             const closeProjectModalButton = document.getElementById('closeProjectModalButton');
             const projectTitle = document.getElementById('projectTitle');
@@ -653,8 +677,13 @@
             const mobileContactButton = document.getElementById('mobileContactButton');
             const closeContactModalButton = document.getElementById('closeContactModalButton');
 
-            let projectsData = [];
+            // Data Stores
+            let mainProjectsData = [];
+            let boosterProjectsData = [];
+
+            // Modal Context State
             let currentProjectIndex = -1;
+            let currentDataSource = 'main'; // 'main' or 'booster'
 
             // --- Project Data Handling ---
             function parseProjectsTxt(text) {
@@ -689,22 +718,39 @@
                 return projects;
             }
 
-            async function loadProjects() {
+            async function loadMainProjects() {
                 try {
                     const response = await fetch('projects.txt');
                     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                     const textData = await response.text();
-                    projectsData = parseProjectsTxt(textData);
-                    renderPortfolioGrid(projectsData);
+                    mainProjectsData = parseProjectsTxt(textData);
+                    renderPortfolioGrid(mainProjectsData, portfolioGrid, 'portfolio-image', 'main');
                 } catch (error) {
                     console.error("Could not load or parse projects.txt:", error);
                 }
             }
-            loadProjects();
 
-            // --- UI Rendering and Modal Logic ---
-            function renderPortfolioGrid(projects) {
-                portfolioGrid.innerHTML = '';
+            async function loadBoosterProjects() {
+                try {
+                    const response = await fetch('booster-juice.txt');
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    const textData = await response.text();
+                    boosterProjectsData = parseProjectsTxt(textData);
+                    // Render to booster grid, use 'booster-image' class (portrait), source = 'booster'
+                    renderPortfolioGrid(boosterProjectsData, boosterGrid, 'booster-image', 'booster');
+                } catch (error) {
+                    console.error("Could not load or parse booster-juice.txt:", error);
+                }
+            }
+
+            // Load both datasets
+            loadMainProjects();
+            loadBoosterProjects();
+
+            // --- UI Rendering ---
+            // Updated to be reusable for both grids
+            function renderPortfolioGrid(projects, gridElement, imageClass, source) {
+                gridElement.innerHTML = '';
                 projects.forEach((project, index) => {
                     const item = document.createElement('div');
                     item.className = 'portfolio-item';
@@ -713,16 +759,19 @@
                     // Use hover_text if available, fallback to name
                     const hoverDisplay = project.hoverText || project.name;
 
-                    item.innerHTML = `<div class="portfolio-image" style="background-image: url('${project.thumbnail}')"></div><div class="overlay"><div class="project-name">${hoverDisplay}</div></div>`;
-                    item.addEventListener('click', () => openProjectModal(index));
-                    portfolioGrid.appendChild(item);
+                    item.innerHTML = `<div class="${imageClass}" style="background-image: url('${project.thumbnail}')"></div><div class="overlay"><div class="project-name">${hoverDisplay}</div></div>`;
+                    item.addEventListener('click', () => openProjectModal(index, source));
+                    gridElement.appendChild(item);
                 });
             }
 
-            // Function to open standard project
-            function openProjectModal(index) {
+            // --- Modal Logic ---
+            function openProjectModal(index, source) {
                 currentProjectIndex = index;
-                const project = projectsData[index];
+                currentDataSource = source;
+
+                let activeData = (source === 'booster') ? boosterProjectsData : mainProjectsData;
+                const project = activeData[index];
 
                 // Ensure text is visible for normal projects
                 projectModal.classList.remove('hero-mode');
@@ -740,7 +789,7 @@
                     const isImage = link.match(/\.(jpeg|jpg|gif|png|webp)$/i);
 
                     if (isImage) {
-                        carouselItem.innerHTML = `<img src="${link}" class="d-block w-100 h-100" style="object-fit: contain;">`;
+                        carouselItem.innerHTML = `<img src="${link}" class="d-block w-100 h-100" style="object-fit: contain;" alt="Project Image">`;
                     } else {
                         carouselItem.innerHTML = `<iframe src="${link}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
                     }
@@ -761,6 +810,7 @@
             // Function to open Hero Reel
             function openHeroReel() {
                 currentProjectIndex = -1; // No index in the grid
+                currentDataSource = 'hero';
 
                 // Set Modal to Hero Mode
                 projectModal.classList.add('hero-mode');
@@ -815,13 +865,25 @@
             // Keyboard navigation
             document.addEventListener('keydown', function (event) {
                 if (projectModal.classList.contains('is-open')) {
+                    if (currentDataSource === 'hero') {
+                        if (event.key === 'Escape') closeProjectModal();
+                        return;
+                    }
+
+                    // Determine which list is active
+                    let activeData = (currentDataSource === 'booster') ? boosterProjectsData : mainProjectsData;
+
                     switch (event.key) {
                         case 'Escape': closeProjectModal(); break;
                         case 'ArrowRight':
-                            if (currentProjectIndex !== -1 && currentProjectIndex < projectsData.length - 1) openProjectModal(currentProjectIndex + 1);
+                            if (currentProjectIndex !== -1 && currentProjectIndex < activeData.length - 1) {
+                                openProjectModal(currentProjectIndex + 1, currentDataSource);
+                            }
                             break;
                         case 'ArrowLeft':
-                            if (currentProjectIndex !== -1 && currentProjectIndex > 0) openProjectModal(currentProjectIndex - 1);
+                            if (currentProjectIndex !== -1 && currentProjectIndex > 0) {
+                                openProjectModal(currentProjectIndex - 1, currentDataSource);
+                            }
                             break;
                     }
                 } else if (contactModal.style.display === 'flex' && event.key === 'Escape') {
