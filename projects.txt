@@ -22,7 +22,7 @@ Stylist – @ryanleutz
 ---
 
 name: rouri404 - videostar
-hover_text: Red Bull Records
+hover_text: videostar
 thumbnail: thumbnails/videostar.png
 vimeo_links:
 https://www.youtube.com/embed/vdC9KPCSyH8
