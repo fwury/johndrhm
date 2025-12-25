@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -75,12 +76,25 @@
         }
 
         .hero-logos img {
-            height: 35px;
+            /* Removed generic height to allow individual sizing below */
             width: auto;
             object-fit: contain;
             filter: brightness(0) invert(1);
             /* Ensures logos are white if source isn't */
             transition: opacity 0.3s ease;
+        }
+
+        /* INDIVIDUAL LOGO SIZING */
+        #logo-storytolds {
+            height: 18px;
+        }
+
+        #logo-redbull {
+            height: 42px;
+        }
+
+        #logo-ditch {
+            height: 36px;
         }
 
         .hero-logos a:hover img {
@@ -93,8 +107,17 @@
                 flex-wrap: wrap;
             }
 
-            .hero-logos img {
-                height: 25px;
+            /* Mobile Logo Sizing */
+            #logo-storytolds {
+                height: 14px;
+            }
+
+            #logo-redbull {
+                height: 32px;
+            }
+
+            #logo-ditch {
+                height: 26px;
             }
         }
 
@@ -516,9 +539,11 @@
 
         <!-- Centered Logos Overlay -->
         <div class="hero-logos">
-            <a href="https://storytolds.co/" target="_blank"><img src="img/storytolds.png" alt="Storytolds"></a>
-            <a href="https://redbullrecords.com/" target="_blank"><img src="img/redbull.png" alt="Red Bull Records"></a>
-            <a href="https://ditch.la/" target="_blank"><img src="img/ditch.png" alt="Ditch"></a>
+            <a href="https://storytolds.co/" target="_blank"><img id="logo-storytolds" src="img/storytolds.png"
+                    alt="Storytolds"></a>
+            <a href="https://redbullrecords.com/" target="_blank"><img id="logo-redbull" src="img/redbull.png"
+                    alt="Red Bull Records"></a>
+            <a href="https://ditch.la/" target="_blank"><img id="logo-ditch" src="img/ditch.png" alt="Ditch"></a>
         </div>
 
         <!-- Navigation -->
