@@ -1,5 +1,5 @@
-name: Booster Juice - Summertime Watermelon
-hover_text: Summertime Watermelon
+name: Booster Juice - Watermelon Smoothies
+hover_text: Watermelon Smoothies
 thumbnail: thumbnails/booster-juice.png
 vimeo_links:
 https://player.vimeo.com/video/1125941623

@@ -1,53 +1,76 @@
-name: ziPbby - Bombay
-hover_text: Bombay • 193K views
-thumbnail: thumbnails/bombay.png
+name: ditch x gunnr popup
+hover_text: ditch
+thumbnail: thumbnails/ditch.jpg
 vimeo_links:
-https://player.vimeo.com/video/1125948578
-https://player.vimeo.com/video/1125948558
-https://player.vimeo.com/video/1125948594
-https://player.vimeo.com/video/1125948620
+img/ditch.mp4
 description:
-https://www.youtube.com/watch?v=w_UQbm3s50g
+Assistant Director / Color – @johndrhm
 
-VFX – @johndrhm
-Director – @chriswbradford
-1st AD – @yardstickbwoy
-2nd AD – @gaziwrld
-B-Cam – @johndrhm @declanfzg 
-Editor – @oasisnate 
-Color – @edgarreynag 
-Title – @aloran.psd 
-Stylist – @ryanleutz
+Talent – @syrianpsycho @co1inmyers
+
+Director – @j6shy
+Producer / Director of Photography – @allieleichter
+Gaffer – @cma_era
+Key Grip – @calub_harris
+1st Assistant Camera – @jpegcole
+2nd Assistant Camera – @bykaiii
+Audio Recordist – @hollyfontanetta
+BTS – @trickyjacob @ttylerphamm @poultryheadd
+
+Stylist – @conceal @trentkiim
+Casting Coordinators – @a_lexjs @victorrphm @trentkiim
+Set Design – @j6shy
+
+Editor / VFX Lead – @declanfzg
+Storyboard Illustrator – @ineurysm
+
+---
+
+name: pholoh - Tokyo Ghoul Jeans
+hover_text: pholoh
+thumbnail: thumbnails/pholoh.jpg
+vimeo_links:
+img/pholoh.mp4
+description:
+3D Lead – @johndrhm
+
+Talent – @feather_is_alive @thxrston
+
+Director – @j6shy
+Producer / Director of Photography – @allieleichter
+1st Assistant Camera – @jpegcole
+Gaffer – @tron_boy_fresh
+Key Grip – @grahamhammond
+Art Production Assistant – @sydneyvena
+Key Production Assistant – @timalimz
+
+Stylist – @trentkiim
+Casting Coordinators – @trentkiim @j6shy
+Hair – @ethvnshin
+Makeup – @l6mda
+Fight Choreography – @ethvnshin
+
+Editor / VFX – @declanfzg
+Color – @declanfzg
+Titles – @declanfzg
+3D – @sp1ll
 
 ---
 
 name: rouri404 - videostar
-hover_text: videostar
+hover_text: Red Bull Records
 thumbnail: thumbnails/videostar.png
 vimeo_links:
 https://www.youtube.com/embed/vdC9KPCSyH8
 img/videostar-credits.png
 description:
 VFX / Color - @johndrhm
-Director – @chriswbradford
-AD – @gaziwrld
-PA – @dylbradshaw
-Producer – @31sentinel @evansasha_
 Talent – @evrying
+Director – @chriswbradford
+Assistant Director – @gaziwrld
+Production Assistant – @dylbradshaw
+Producer – @31sentinel @evansasha_
 Label – @redbullrecords
-
----
-
-name: Fait Par Lui - Runway
-hover_text: Fait Par Lui
-thumbnail: thumbnails/runway.jpeg
-vimeo_links:
-https://player.vimeo.com/video/1147539246
-https://player.vimeo.com/video/1147539261
-https://player.vimeo.com/video/1147539229
-
-description:
-https://www.youtube.com/watch?v=snJUiunkVsU
 
 ---
 
@@ -64,142 +87,6 @@ VFX – @kxrrupt @a1frostt
 
 ---
 
-name: VEEZE - L.O.A.T
-hover_text: L.O.A.T • 4.2M views
-thumbnail: thumbnails/loat.png
-vimeo_links:
-https://www.youtube.com/embed/4H43ils7p6k
-description:
-VFX – @johndrhm @declanfzg
-Director – @lestynpark
-Creative Direction – @lestynpark @veezeworst
-GFX & Production Mgmt – @r9v3r
-Editor – @lestynpark
-Production Company – @imagecontrolstudios
-
----
-
-name: Babyface Ray, LUCKI - Standing on Business
-hover_text: Standing on Business • 1.7M views
-thumbnail: thumbnails/standing-on-business.png
-vimeo_links:
-https://www.youtube.com/embed/xt74rwLdeyg
-description:
-VFX – @johndrhm @declanfzg
-Director – @lestynpark
-Titles – @declanfzg @r9v3r
-Color – @joeade_
-Production Company – @imagecontrolstudios
-
----
-
-name: AP Dhillon & Shinda Kahlon - HITMEN
-hover_text: HITMEN • 1.3M views
-thumbnail: thumbnails/hitmen.jpg
-vimeo_links:
-https://www.youtube.com/embed/wiKCVac9N78
-description:
-Scene Clean Up – @johndrhm 
-
-Director – @aditdixit
-Producer / AD – @raywxllis
-DP – @camerongnslvs
-1st AC – @70mm_
-Gaffer – @lonetree 
-Key Grip – @dir_artemio
-Grip – @anthonyjmangini
-Steadicam Operator – @steadieafoo
-2nd AD – @directorcarrington
-Production Designer – @ohh.arch
-Art Leadman – @wade.la26
-Wardrobe Stylist – @jennademaio.stylist 
-PA – @nicoramosfilms @therealjonathandimas 
-BTS – @colematthews408
-
-Editor – @parkefox
-Colorist – @jaytheeye
-VFX Supervisor / Compositor – @parkefox 
-VFX Lead / 3D Generalist – @sovann.sk 
-Water Simulation Artist – @yusufkicanoglu 
-Dog Chain 3D Generalist – @byandregv  
-Money Simulation Artist – @lksvisuals
-Mixed Media – @declanfzg
-
-Production Company – @redfoxprod 
-Location – @cinepacks.studios
-Casting Director – @apecastings
-
----
-
-name: BabyChiefDoit ft. Luh Tyler - Why Would I?
-hover_text: Why Would I? • 931K views
-thumbnail: thumbnails/why-would-i.png
-vimeo_links:
-https://www.youtube.com/embed/BzYsfSJOZa4
-description:
-3D – @johndrhm
-Title – @declanfzg
-Director – @rozay.4k
-VFX – @kxrrupt @a1frostt
-
----
-
-name: devstacks - LMK U MADE IT HOME OKAY
-hover_text: LMK U MADE IT HOME OKAY • 131K views
-thumbnail: thumbnails/lmk-u-made-it-home-okay.png
-vimeo_links:
-https://www.youtube.com/embed/CfQVhlk_VdE
-description:
-VFX – @johndrhm @declanfzg
-Director – @forgetter
-Editor – @unifiedatlantic
-
----
-
-name: Dream, Ivory - Tangerine Dream
-hover_text: Tangerine Dream • 130K views
-thumbnail: thumbnails/tangerine-dream.png
-vimeo_links:
-https://www.youtube.com/embed/0FRPgfcUgZ8
-description:
-VFX – @johndrhm
-
-Producer – @producedbyaryan
-Production Company – @twistedhammock.co
-1st AD – @madelineabiera
-DP – @l3ibow
-Steadicam Operator – @joshuadwsmith
-1st AC – @nickfrmnowhre
-Gaffer – @randomrmd
-Key Grip – @zoharvaradi
-Assist – @matt.rica
-Production Designer – @grahamcsmith
-Wardrobe Supervisor – @missjazlynv
-Stills Photographer – @imawni
-Key PA – Taytum Blake
-Set PA – Ryan Lee
-Talent – @bbydolleffie
-
-Editor – @baemerola
-VFX – @johndrhm
-Color – @ashton.color
-Title Card – @srikarswork
-
----
-
-name: twinuzis - Waiting For Love!
-hover_text: Waiting For Love! • 100K views
-thumbnail: thumbnails/waiting-for-love.png
-vimeo_links:
-https://www.youtube.com/embed/hFkoJwfDEK0
-description:
-VFX – @johndrhm @declanfzg
-Directors – @jacksonmagnabosco @keatondjones
-Title – @declanfzg
-3D – @sp1ll
-
----
-
 name: $wag Nightmare - mercedes
 hover_text: mercedes • 68K views
 thumbnail: thumbnails/mercedes.jpg
@@ -209,9 +96,9 @@ description:
 VFX – @johndrhm @mattthew.mercer
 
 Directors – @shuuwori @augustaugstaugust
-Producer / AD – @michael_the_sauce_god_ 
-DP – @athul.obla 
-1st AC – @jpegcole
+Producer / Assistant Director – @michael_the_sauce_god_ 
+Director of Photography – @athul.obla 
+1st Assistant Camera – @jpegcole
 Steadicam Operator – @steadi_donny
 FPV Drone – @jelly.flp
 FPV Camera Operator – @bengampelll 
@@ -220,7 +107,7 @@ Key Grip – @victorienv
 Best Boy Electric – @kaileyhorito
 Best Boy Grip – @dank_duva 
 Swing – @xanderfernandez_ @doan.haydenz
-PA – @mnd_david @erumasglue @yahirsfilms
+Production Assistant – @mnd_david @erumasglue @yahirsfilms
 BTS – @xanderfernandez_ @mnd_david
 
 Stylist – @stylingbrookie
@@ -240,6 +127,139 @@ Production Company – @storytolds
 
 ---
 
+name: Dream, Ivory - Tangerine Dream
+hover_text: Tangerine Dream • 130K views
+thumbnail: thumbnails/tangerine-dream.png
+vimeo_links:
+https://www.youtube.com/embed/0FRPgfcUgZ8
+description:
+VFX – @johndrhm
+
+Producer – @producedbyaryan
+Production Company – @twistedhammock.co
+1st Assistant Director – @madelineabiera
+Director of Photography – @l3ibow
+Steadicam Operator – @joshuadwsmith
+1st Assistant Camera – @nickfrmnowhre
+Gaffer – @randomrmd
+Key Grip – @zoharvaradi
+Assist – @matt.rica
+Production Designer – @grahamcsmith
+Wardrobe Supervisor – @missjazlynv
+Stills Photographer – @imawni
+Key Production Assistant – Taytum Blake
+Set Production Assistant – Ryan Lee
+Talent – @bbydolleffie
+
+Editor – @baemerola
+VFX – @johndrhm
+Color – @ashton.color
+Title Card – @srikarswork
+
+---
+
+name: AP Dhillon & Shinda Kahlon - HITMEN
+hover_text: HITMEN • 1.3M views
+thumbnail: thumbnails/hitmen.jpg
+vimeo_links:
+https://www.youtube.com/embed/wiKCVac9N78
+description:
+Scene Clean Up – @johndrhm 
+
+Director – @aditdixit
+Producer / Assistant Director – @raywxllis
+Director of Photography – @camerongnslvs
+1st Assistant Camera – @70mm_
+Gaffer – @lonetree 
+Key Grip – @dir_artemio
+Grip – @anthonyjmangini
+Steadicam Operator – @steadieafoo
+2nd Assistant Director – @directorcarrington
+Production Designer – @ohh.arch
+Art Leadman – @wade.la26
+Wardrobe Stylist – @jennademaio.stylist 
+Production Assistant – @nicoramosfilms @therealjonathandimas 
+BTS – @colematthews408
+
+Editor – @parkefox
+Colorist – @jaytheeye
+VFX Supervisor / Compositor – @parkefox 
+VFX Lead / 3D Generalist – @sovann.sk 
+Water Simulation Artist – @yusufkicanoglu 
+Dog Chain 3D Generalist – @byandregv  
+Money Simulation Artist – @lksvisuals
+Mixed Media – @declanfzg
+
+Production Company – @redfoxprod 
+Location – @cinepacks.studios
+Casting Director – @apecastings
+
+---
+
+name: Persona - PERS6NA
+hover_text: Persona
+thumbnail: thumbnails/pers6na.png
+vimeo_links:
+img/persona.mp4
+description:
+
+---
+
+name: VEEZE - L.O.A.T
+hover_text: L.O.A.T • 4.2M views
+thumbnail: thumbnails/loat.png
+vimeo_links:
+https://www.youtube.com/embed/4H43ils7p6k
+description:
+VFX – @johndrhm @declanfzg
+Director – @lestynpark
+Creative Direction – @lestynpark @veezeworst
+GFX & Production Manager – @r9v3r
+Editor – @lestynpark
+Production Company – @imagecontrolstudios
+
+---
+
+name: Fait Par Lui - Runway
+hover_text: Fait Par Lui
+thumbnail: thumbnails/runway.jpeg
+vimeo_links:
+https://player.vimeo.com/video/1147539246
+https://player.vimeo.com/video/1147539261
+https://player.vimeo.com/video/1147539229
+
+description:
+https://www.youtube.com/watch?v=snJUiunkVsU
+
+---
+
+name: Babyface Ray, LUCKI - Standing on Business
+hover_text: Standing on Business • 1.7M views
+thumbnail: thumbnails/standing-on-business.png
+vimeo_links:
+https://www.youtube.com/embed/xt74rwLdeyg
+description:
+VFX – @johndrhm @declanfzg
+Director – @lestynpark
+Titles – @declanfzg @r9v3r
+Color – @joeade_
+Production Company – @imagecontrolstudios
+
+---
+
+name: twinuzis - Waiting For Love!
+hover_text: Waiting For Love! • 100K views
+thumbnail: thumbnails/waiting-for-love.png
+vimeo_links:
+https://www.youtube.com/embed/hFkoJwfDEK0
+description:
+VFX – @johndrhm @declanfzg
+Directors – @jacksonmagnabosco @keatondjones
+Title – @declanfzg
+3D – @sp1ll
+
+---
+
 name: AJ Vitanza - DON'T WANNA KNOW
 hover_text: DON'T WANNA KNOW • 9.2K views
 thumbnail: thumbnails/dont-wanna-know.jpg
@@ -249,7 +269,7 @@ description:
 VFX – @johndrhm
 
 Director – @chriswbradford
-AD – John Taylor
+Assistant Director – John Taylor
 Editor – @chriswbradford
 Title – @awrnuv
 
@@ -257,3 +277,53 @@ Writer – @ajvitanza
 Producer – @songsbystefano
 Mixer – @teezio
 Master – @ohadnissimmastering
+
+---
+
+name: ziPbby - Bombay
+hover_text: Bombay • 193K views
+thumbnail: thumbnails/bombay.png
+vimeo_links:
+https://player.vimeo.com/video/1125948578
+https://player.vimeo.com/video/1125948558
+https://player.vimeo.com/video/1125948594
+https://player.vimeo.com/video/1125948620
+description:
+https://www.youtube.com/watch?v=w_UQbm3s50g
+
+VFX – @johndrhm
+Director – @chriswbradford
+1st Assistant Director – @yardstickbwoy
+2nd Assistant Director – @gaziwrld
+B-Cam – @johndrhm @declanfzg
+Editor – @oasisnate
+Color – @edgarreynag
+Title – @aloran.psd
+Stylist – @ryanleutz
+
+---
+
+name: devstacks - LMK U MADE IT HOME OKAY
+hover_text: LMK U MADE IT HOME OKAY • 131K views
+thumbnail: thumbnails/lmk-u-made-it-home-okay.png
+vimeo_links:
+https://www.youtube.com/embed/CfQVhlk_VdE
+description:
+VFX – @johndrhm @declanfzg
+Director – @forgetter
+Editor – @unifiedatlantic
+
+---
+
+name: BabyChiefDoit ft. Luh Tyler - Why Would I?
+hover_text: Why Would I? • 931K views
+thumbnail: thumbnails/why-would-i.png
+vimeo_links:
+https://www.youtube.com/embed/BzYsfSJOZa4
+description:
+3D – @johndrhm
+Title – @declanfzg
+Director – @rozay.4k
+VFX – @kxrrupt @a1frostt
+
+---
