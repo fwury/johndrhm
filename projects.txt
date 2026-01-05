@@ -1,5 +1,5 @@
 name: ditch x gunnr popup
-hover_text: ditch
+hover_text: ditch • 198K views
 thumbnail: thumbnails/ditch.jpg
 vimeo_links:
 img/ditch.mp4
@@ -27,7 +27,7 @@ Storyboard Illustrator – @ineurysm
 ---
 
 name: pholoh - Tokyo Ghoul Jeans
-hover_text: pholoh
+hover_text: pholoh • 173K views
 thumbnail: thumbnails/pholoh.jpg
 vimeo_links:
 img/pholoh.mp4
@@ -58,7 +58,7 @@ Titles – @declanfzg
 ---
 
 name: rouri404 - videostar
-hover_text: Red Bull Records
+hover_text: Red Bull Records • 1.3K views
 thumbnail: thumbnails/videostar.png
 vimeo_links:
 https://www.youtube.com/embed/vdC9KPCSyH8
@@ -197,11 +197,18 @@ Casting Director – @apecastings
 ---
 
 name: Persona - PERS6NA
-hover_text: Persona
+hover_text: Persona • 83K views
 thumbnail: thumbnails/pers6na.png
 vimeo_links:
 img/persona.mp4
 description:
+Director – @johndrhm
+Director of Photography – @johndrhm
+Gaffer - @jxsonsoung
+Editor – @johndrhm
+VFX – @johndrhm
+Color - @johndrhm
+PA/BTS - @jeremiahpaculan @ell0rimo
 
 ---
 
@@ -221,7 +228,7 @@ Production Company – @imagecontrolstudios
 ---
 
 name: Fait Par Lui - Runway
-hover_text: Fait Par Lui
+hover_text: Fait Par Lui • 2.4K views
 thumbnail: thumbnails/runway.jpeg
 vimeo_links:
 https://player.vimeo.com/video/1147539246

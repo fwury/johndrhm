@@ -364,6 +364,15 @@
             padding: 1rem;
         }
 
+        /* --- Views Icon --- */
+        .views-icon {
+            height: 1em;
+            width: auto;
+            vertical-align: middle;
+            margin-left: 4px;
+            padding-bottom: 2px;
+        }
+
         /* --- Modal Styling --- */
         .modal {
             display: none;
@@ -460,7 +469,6 @@
             overflow-y: auto;
         }
 
-        /* --- Hero Mode Modal Styles (No text, full width) --- */
         .modal.hero-mode .description-container {
             display: none !important;
         }
@@ -827,7 +835,6 @@
             loadBoosterProjects();
 
             // --- UI Rendering ---
-            // Updated to be reusable for both grids
             function renderPortfolioGrid(projects, gridElement, imageClass, source) {
                 gridElement.innerHTML = '';
                 projects.forEach((project, index) => {
@@ -836,7 +843,10 @@
                     item.dataset.index = index;
 
                     // Use hover_text if available, fallback to name
-                    const hoverDisplay = project.hoverText || project.name;
+                    let hoverDisplay = project.hoverText || project.name;
+
+                    // Replace "views" with image icon
+                    hoverDisplay = hoverDisplay.replace(/views/gi, '<img src="img/views.png" class="views-icon" alt="views">');
 
                     item.innerHTML = `<div class="${imageClass}" style="background-image: url('${project.thumbnail}')"></div><div class="overlay"><div class="project-name">${hoverDisplay}</div></div>`;
                     item.addEventListener('click', () => openProjectModal(index, source));
